@@ -22,9 +22,11 @@ This is the story of how Mario, Armin, and I built VibeTunnel in one marathon se
 
 We met up for a hackathon without knowing exactly what we wanted to build, but we knew one thing: we were all completely in love with building stuff with AI. As we talked, we realized we shared the same frustration - we all wanted to check on our AI agents and see how far they'd gotten with their tasks.
 
-The actual use case that drove us? Being able to check on Claude Code from anywhere, potentially get notifications, and give it new things to do when it's done. This first version lets us control Claude Code remotely - imagine being at lunch and checking if your agent finished that refactoring task, then immediately giving it the next assignment. Going forward, we have ideas for push notifications when Claude Code completes tasks and other features to make the Claude Code experience even better.
+## Motivation
 
-But here's the thing - we didn't want to constrain VibeTunnel to just Claude Code. It can control anything in your terminal. The broader frustration remains: accessing your development machine's terminal from anywhere shouldn't require complex SSH setups, port forwarding gymnastics, or fighting with corporate firewalls. We wanted something that just works - if you can browse the web, you should be able to access your terminal.
+The actual use case that drove us? Being able to check on Claude Code from anywhere, get push notifications, and give it new commands when it's done. This first version lets us control Claude Code remotely - imagine being at lunch and checking if your agent finished that refactoring task, then immediately giving it the next assignment.
+
+But here's the thing - we didn't want to constrain VibeTunnel to just Claude Code. It can control anything in your terminal. The broader frustration remains: accessing your development machine's terminal from anywhere shouldn't require complex SSH setups, port forwarding gymnastics, or fighting with corporate firewalls. We wanted something that just works.
 
 ## The Birth of VibeTunnel
 
@@ -173,4 +175,4 @@ At the end of our marathon session, we all agreed:
 
 > This was a really fun project. And isn't that what hacking is all about?
 
-Try [VibeTunnel](https://vibetunnel.sh) today. Your terminal is waiting in your browser. And remember - it was built in a day by three developers having fun, but it'll be improved forever by a community that shares our passion.
+Try [VibeTunnel](https://vibetunnel.sh) today! Your agent is waiting in your browser.
