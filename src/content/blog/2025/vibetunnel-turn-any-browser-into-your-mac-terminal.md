@@ -155,10 +155,6 @@ Mario summed up the project perfectly:
 
 > We can definitely say we wouldn't even have attempted this without Claude Code... That would be a multi week project probably. Maybe not a multi week project, but definitely a week project.
 
-When I asked Armin what cost him the most time, his answer was predictable but telling:
-
-> The most time? Xcode. But really, anything where the agents cannot loop independently.
-
 The real lesson here is about momentum. Once we had that first character appear in the browser - just a simple 'h' from typing 'hello' - we were hooked. Each small victory fueled the next. Input working? Let's add colors. Colors working? How about cursor movement. Before we knew it, we had a full terminal emulator.
 
 ## Conclusion: Shipping Beats Perfect
