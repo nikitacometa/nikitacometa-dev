@@ -154,7 +154,7 @@ Mario summed up the project perfectly:
 
 > We can definitely say we wouldn't even have attempted this without Claude Code... That would be a multi week project probably. Maybe not a multi week project, but definitely a week project.
 
-The real lesson here is about momentum. Once we had that [first character appear in the browser](https://x.com/steipete/status/1934490134537437510) - just a simple 'h' from typing 'hello' - we were hooked. Each small victory fueled the next. Input working? Let's add colors. Colors working? How about cursor movement. Before we knew it, we had a full terminal emulator.
+The real lesson here is about momentum. Once we had that [first character appear in the browser](https://x.com/mitsuhiko/status/1934488450788360281) - just a simple 'h' from typing 'hello' - we were hooked. Each small victory fueled the next. Input working? Let's add colors. Colors working? How about cursor movement. Before we knew it, we had a full terminal emulator.
 
 ## Conclusion: Shipping Beats Perfect
 
