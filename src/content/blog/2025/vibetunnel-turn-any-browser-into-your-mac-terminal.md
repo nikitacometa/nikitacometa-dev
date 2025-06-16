@@ -163,9 +163,7 @@ The real lesson here is about momentum. Once we had that first character appear 
 
 ## Conclusion: Shipping Beats Perfect
 
-VibeTunnel is what happens when developers scratch their own itch with modern tools. We're making it open source because we want to use this ourselves, and there's nothing quite like it out there. It's not perfect - Unicode rendering is janky, input occasionally drops characters, and we need multiplexing. 
-
-The imperfections are almost charming. They're a reminder that this was built by humans, in a marathon session, fueled by the joy of creation. Every quirk has a story. That Unicode rendering issue? That's from when we were too tired to read the font documentation properly. The six-terminal limit? An acceptable trade-off that still makes the first version amazing and fun to use.
+VibeTunnel is what happens when developers scratch their own itch with modern tools. We're making it open source because we want to use this ourselves, and there's nothing quite like it out there. It's not perfect - yet already amazing and fun to use.
 
 As Armin noted about the quality:
 
