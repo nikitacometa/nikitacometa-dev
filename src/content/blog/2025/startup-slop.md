@@ -15,7 +15,7 @@ About a month ago I learned that some moderator banned my whole domain because I
 
 I won't point to people or social networks, it's easy enough to find if you really care.
 
-Funny enough, the trigger was the most popular and influencial post on my website: [Claude Code is my Computer](/posts/2025/claude-code-is-my-computer). The article where the whole point was to expand people's mind in what's all possible with modern agents - and that it far extens the typical use cases I've seen so far.
+Funny enough, the trigger was the most popular and influential post on my website: [Claude Code is my Computer](/posts/2025/claude-code-is-my-computer). The article where the whole point was to expand people's mind in what's all possible with modern agents - and that it far extends the typical use cases I've seen so far.
 
 ## What's Slop?
 
@@ -27,13 +27,13 @@ There's a difference tho between automated replies and using agents to assist wr
 
 There's another argument to make. My day, just like yours, only has 24 hours. And I do need a few of them to sleep because organic machines are fragile. Some posts I care a lot for and write every word myself.
 
-Others are things I learn, but given the 1000 things I do, I would likely not have cared enough to take my notes and put them online, and they have a dual goal of being documentation for humans and really also a guide for agents (like the one to fix <private> logging on macOS)
+Others are things I learn, but given the 1000 things I do, I would likely not have cared enough to take my notes and put them online, and they have a dual goal of being documentation for humans and really also a guide for agents (like the one to fix [<private> logging on macOS](/posts/2025/logging-privacy-shenanigans))
 
 Would it be a better outcome to stop sharing these things and only allow the posts that each take me half a day to write on, so some people are not hurt in their feelings?
 
 ## The Bigger Picture
 
-I say feelings, because I tried to discuss with one of their moderators and was met with so much insult and deprcation of my work, a spiteful mood from a person that don't even knows me, for something that I put up for free online. Logically that makes no sense. It's almost as if there's somethign bigger they hate when it comes to AI and I'm just the face they can project that to in that very moment.
+I say feelings, because I tried to discuss with one of their moderators and was met with so much insult and deprecation of my work, a spiteful mood from a person that don't even knows me, for something that I put up for free online. Logically that makes no sense. It's almost as if there's sth bigger they hate when it comes to AI and I'm just the face they can project that to in that very moment.
 
 Honestly, with such a reaction I'm not mad that they block me and my work. That's not a community I wanna be a part of.
 
@@ -44,3 +44,7 @@ I mean dang, these days I write more words manually for blog posts than I do for
 You can create slop with or without agents, as you can create great work with or without. Agents are just another tool.
 
 claude: commit, push and merge PR.
+
+---
+
+*Yes, I asked ChatGPT to make the header graphic extra AI-y, just because.*
