@@ -67,6 +67,20 @@ Anthropic's engineering team shares comprehensive best practices for maximizing 
 
 > Claude performs best when it has a clear target to iterate against: a visual mock, a test case, or another kind of output.
 
+## MCP vs CLI: A Data-Driven Tool Comparison
+
+[Read the article](https://mariozechner.at/posts/2025-08-15-mcp-vs-cli/) by Mario Zechner ([@badlogicgames](https://x.com/badlogicgames)) • August 2025 • 12 min
+
+Mario runs a rigorous evaluation comparing Model Context Protocol (MCP) servers against CLI tools for agentic workflows, with surprising results:
+
+- **Many MCPs are redundant**: They often reimplement functionality already available in better CLI tools
+- **Context window pollution**: Some MCPs flood the context with unnecessary information, degrading agent performance
+- **When MCPs make sense**: No good CLI alternative exists, CLI output is too verbose, LLM lacks shell access, or stateful tools benefit from persistent connections
+- **Empirical testing matters**: Through 120 evaluation runs across debugging tasks, tmux outperformed custom tools with "lowest cost and consistent clean execution"
+- **Choose tools pragmatically**: Tool effectiveness varies by task - prefer simpler interfaces and existing CLI tools when available
+
+> All tools achieved 100% success rate... The main differentiators were efficiency and ease of use.
+
 ## Building a macOS App Entirely with Claude Code
 
 [Read the article](https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code) by Indragie Karunaratne ([@indragie](https://x.com/indragie)) • July 2025 • 19 min
