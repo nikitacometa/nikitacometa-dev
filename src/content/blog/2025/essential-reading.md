@@ -96,6 +96,20 @@ Alberto offers a sobering counterpoint to AI coding enthusiasm after discovering
 
 > I'm not asking it to write new things from scratch... I'm the senior dev. The LLM is the assistant.
 
+## AI is a Money Trap: The Economics of Generative AI
+
+[Read the article](https://www.wheresyoured.at/ai-is-a-money-trap/) by Ed Zitron ([@edzitron](https://x.com/edzitron)) • January 2025 • 25 min
+
+Ed delivers a scathing economic analysis of the generative AI industry, arguing that it's fundamentally unsustainable and heading for collapse:
+
+- **No viable business model**: After three years and billions in investment, no AI startup has achieved profitability or demonstrated a path to it
+- **Massive capital destruction**: Companies like OpenAI and Anthropic are burning billions while generating minimal revenue relative to their costs
+- **Infrastructure bubble**: Big Tech's AI data center investments are consuming a significant portion of US economic growth with little return
+- **Systemic economic risks**: The AI bubble is artificially sustained by venture capital and big tech spending, threatening broader economic stability when it bursts
+- **No exit strategies**: Inflated valuations make acquisitions impossible and public offerings unviable
+
+> The generative AI industry is, at its core, unnatural. It does not make significant revenue compared to its unbelievable costs.
+
 ## The Evolution of Software: From 1.0 to 3.0
 
 [Watch the video](https://www.youtube.com/watch?v=LCEmiRjPEtQ) by Andrej Karpathy ([@karpathy](https://x.com/karpathy)) • June 2025 • 40 min
