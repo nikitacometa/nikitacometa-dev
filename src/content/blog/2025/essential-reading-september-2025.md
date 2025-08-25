@@ -13,9 +13,10 @@ This month's edition will continue exploring the evolving landscape of AI-assist
 
 ## Coming Soon
 
-### Article 1: [Title Placeholder]
+### 1. [Building AI Products In The Probabilistic Era](https://giansegato.com/essays/probabilistic-era)
+**by Gian Segato**
 
-[Brief description of the first article will go here]
+As we shift from deterministic code to probabilistic AI systems, the fundamental nature of software development is changing. Segato argues that we're entering an era where traditional engineering approaches must give way to empirical, scientific methodologies. Success now depends on embracing uncertainty, treating data as an organizational operating system, and building products that leverage the emergent capabilities of AI rather than fighting against their unpredictability.
 
 ### Article 2: [Title Placeholder]
 
