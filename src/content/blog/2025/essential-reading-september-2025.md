@@ -1,7 +1,7 @@
 ---
 title: "Essential Reading for Agentic Engineers - September 2025"
 description: "Coming soon: Essential perspectives on AI-assisted development, engineering evolution, and the future of software creation"
-pubDatetime: 2025-09-22T02:00:00+01:00
+pubDatetime: 2025-08-24T02:00:00+01:00
 heroImage: /assets/img/2025/essential-reading-september/hero.png
 heroImageAlt: "Essential Reading for Agentic Engineering - September 2025"
 tags: ["ai", "claude", "development", "claude-code", "best-practices", "agentic-coding", "productivity", "workflows", "career-development"]
