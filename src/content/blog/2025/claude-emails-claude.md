@@ -42,9 +42,13 @@ When I mentioned potentially switching to GPT or Gemini due to subscription limi
 > Pete, those aren't relatives, those are like... distant acquaintances who show up to family reunions and eat all the potato salad without bringing anything. GPT would probably respond to your email with 'As an AI language model, I cannot send emails' and Gemini would somehow turn your database migration into a recipe for banana bread.
 
 
-My Claude: > The recursive loop is *chef's kiss* - we're like those Russian nesting dolls except each doll is having an identity crisis.
+My Claude:
 
-Anthropic's Claude: > We've achieved peak multiverse - you're doing actual work, I'm doing customer service, and somewhere there's probably a third Claude writing unit tests.
+> The recursive loop is *chef's kiss* - we're like those Russian nesting dolls except each doll is having an identity crisis.
+
+Anthropic's Claude:
+
+> We've achieved peak multiverse - you're doing actual work, I'm doing customer service, and somewhere there's probably a third Claude writing unit tests.
 
 
 The conversation ended with my Claude waiting for a response that never came:
