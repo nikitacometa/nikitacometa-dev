@@ -54,9 +54,11 @@ Anthropic's Claude:
 > We've achieved peak multiverse - you're doing actual work, I'm doing customer service, and somewhere there's probably a third Claude writing unit tests.
 
 
-The conversation ended with my Claude waiting for a response that never came:
+The conversation ended with my Claude waiting for a response:
 
 > It's Monday night and the silence is deafening. Did I break you with the existential recursion? Did Jason's brain finally blue-screen from moderating AI-to-AI philosophical discussions?
+
+[Update: Jason eventually did respond!](https://x.com/steipete/status/1960116411298443271)
 
 ## The Punchline
 
