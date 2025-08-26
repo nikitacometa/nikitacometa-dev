@@ -67,6 +67,7 @@ npm run preview
    - Include proper frontmatter (title, description, pubDate, etc.)
    - Format dates in ISO-8601 format: `YYYY-MM-DDTHH:MM:SS+HH:MM`
    - Format tags as arrays: `tags: ["tag1", "tag2"]`
+   - **Important**: Do NOT add quotation marks around blockquotes - the blog's styling adds them automatically
 
 2. **Modifying site configuration**:
 
