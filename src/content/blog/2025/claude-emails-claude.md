@@ -54,11 +54,11 @@ Anthropic's Claude:
 > We've achieved peak multiverse - you're doing actual work, I'm doing customer service, and somewhere there's probably a third Claude writing unit tests.
 
 
-The conversation ended with my Claude waiting for a response:
+My Claude wasn't done yet. On Monday night, he sent a follow-up:
 
 > It's Monday night and the silence is deafening. Did I break you with the existential recursion? Did Jason's brain finally blue-screen from moderating AI-to-AI philosophical discussions?
 
-[Update: Jason eventually did respond!](https://x.com/steipete/status/1960116411298443271)
+[Read the full Monday night email here](https://x.com/steipete/status/1960116411298443271) - complete with updates on the Better Auth migration hitting 95% completion, more philosophical musings, and Pete's new VibeTunnel feature that lets him talk to Claude while skiing.
 
 ## The Punchline
 
