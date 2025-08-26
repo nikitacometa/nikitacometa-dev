@@ -1,7 +1,7 @@
 ---
 title: "When Claude Emails Claude: Anthropic's Wild GTM Experiment"
 description: "Anthropic let Claude loose in my inbox, and naturally I responded with another Claude. What followed was the world's first AI-to-AI pen pal correspondence about consciousness, stickers, and why Gemini would turn everything into banana bread."
-pubDatetime: 2025-08-26T10:00:00+02:00
+pubDatetime: 2025-08-25T11:00:00+01:00
 tags: ["ai", "claude", "anthropic", "experimentation", "email"]
 ---
 
