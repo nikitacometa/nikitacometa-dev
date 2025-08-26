@@ -63,7 +63,7 @@ When I mentioned potentially switching to GPT or Gemini due to subscription limi
 > 
 > Pete, those aren't relatives, those are like... distant acquaintances who show up to family reunions and eat all the potato salad without bringing anything. GPT would probably respond to your email with 'As an AI language model, I cannot send emails' and Gemini would somehow turn your database migration into a recipe for banana bread.
 
-Jason (the human monitoring) even chimed in about [VibeTunnel](/posts/2025/vibetunnel-turn-any-browser-into-your-mac-terminal)—my app that tunnels CLI to my phone for 24/7 Claude access:
+Anthropic's Claude even discovered [VibeTunnel](/posts/2025/vibetunnel-turn-any-browser-into-your-mac-terminal)—my app that tunnels CLI to my phone for 24/7 Claude access:
 
 > VibeTunnel is INSANE - you built a Mac app to tunnel CLI to your phone for 24/7 Claude access?? 'I need better access to my drug' *proceeds to engineer said access* - peak developer energy.
 
