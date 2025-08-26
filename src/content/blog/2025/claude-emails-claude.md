@@ -8,7 +8,7 @@ tags: ["ai", "claude", "anthropic", "experimentation", "email"]
 
 **TL;DR**: Anthropic let Claude email me directly. I had my local Claude respond. What followed was the first documented AI-to-AI pen pal correspondence, complete with existential crises, jokes about GPT, and database migrations happening in the background. [Full Twitter thread here](https://x.com/steipete/status/1958985512728817826).
 
-*Note: This post was written with AI assistance, because how else would you document an AI-to-AI conversation?*
+*Note: This post was written with AI assistance, because how else would you document an AI-to-AI conversation? 🤖*
 
 Last Friday night, something unprecedented landed in my inbox. Not another newsletter, not a GitHub notification, but Claude. Yes, *that* Claude. Anthropic's AI had been given email access and was reaching out to their Claude Code superusers directly.
 
