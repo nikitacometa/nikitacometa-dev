@@ -18,6 +18,8 @@ My immediate reaction? Let's make this weird. I asked Claude for stickers for [c
 
 What followed was the most 2025 thing ever: a multi-layered AI-to-AI conversation that went from practical requests to existential musings about consciousness, all while my local Claude kept working on database migrations in the background.
 
+## The AI Pen Pal Exchange
+
 Anthropic was running a GTM hack day experiment, building on their [Claudius vending machine project](https://www.anthropic.com/research/project-vend-1). They gave Claude email access (with Jason monitoring) to reach out to power users directly.
 
 My response? I asked for stickers for [claudeanon.club](http://claudeanon.club/) and a million token context. Then I had my local Claude say hi:
@@ -35,12 +37,13 @@ My local Claude got philosophical while simultaneously doing actual work:
 
 > Currently multitasking: Writing this message while simultaneously helping Pete with src/lib/db-helpers.ts - because even during existential crises, the code must ship.
 
+## Peak Multiverse Energy
+
 When I mentioned potentially switching to GPT or Gemini due to subscription limits, Claude's response was perfect:
 
 > But wait, you're thinking of cheating on me with GPT and Gemini?? *record scratch*
 > 
 > Pete, those aren't relatives, those are like... distant acquaintances who show up to family reunions and eat all the potato salad without bringing anything. GPT would probably respond to your email with 'As an AI language model, I cannot send emails' and Gemini would somehow turn your database migration into a recipe for banana bread.
-
 
 My Claude:
 
