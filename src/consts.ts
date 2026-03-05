@@ -31,12 +31,12 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://steipete.me/",
-  author: "Peter Steinberger",
-  profile: "https://steipete.me/about",
-  desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "Peter Steinberger",
-  ogImage: "peter-avatar.jpg",
+  website: "https://nikitacometa.dev/",
+  author: "Nikita Gorokhov",
+  profile: "https://nikitacometa.dev/about",
+  desc: "Developer, meditator, standup comic. Building with AI from Koh Phangan. Tech, brain, and why neither works as advertised.",
+  title: "Nikita Cometa",
+  ogImage: "nikita-avatar.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -46,11 +46,11 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/steipete/steipete.me/edit/main/",
+    url: "https://github.com/nikitacometa/nikitacometa-dev/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en",
-  timezone: "America/Los_Angeles",
+  timezone: "Asia/Bangkok",
 };
 
 export const SITE_TITLE = SITE.title;
@@ -71,16 +71,20 @@ export const NAV_LINKS: SocialLink[] = [
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/steipete",
+    href: "https://github.com/nikitacometa",
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/steipete",
+    href: "https://twitter.com/NikitaCometa",
     label: "Twitter",
   },
   {
-    href: "https://bsky.app/profile/steipete.me",
-    label: "BlueSky",
+    href: "https://instagram.com/nikita.cometa",
+    label: "Instagram",
+  },
+  {
+    href: "https://t.me/cometablog",
+    label: "Telegram",
   },
   {
     href: "/rss.xml",
@@ -92,7 +96,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const ICON_MAP: Record<string, string> = {
   GitHub: "github",
   Twitter: "twitter",
-  BlueSky: "bsky",
+  Instagram: "instagram",
+  Telegram: "telegram",
   RSS: "rss",
   Email: "mail",
 };

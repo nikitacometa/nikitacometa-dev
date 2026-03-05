@@ -1,21 +1,4 @@
 ---
-// Analytics component for Vercel Analytics and Speed Insights
+// Analytics placeholder — add your preferred analytics here
+// Options: Plausible, Umami, GoatCounter (all privacy-friendly)
 ---
-
-<!-- Vercel Analytics -->
-<script>
-  if (typeof window !== 'undefined' && import.meta.env.PROD) {
-    import('@vercel/analytics').then(({ inject }) => {
-      inject();
-    });
-  }
-</script>
-
-<!-- Vercel Speed Insights -->
-<script>
-  if (typeof window !== 'undefined' && import.meta.env.PROD) {
-    import('@vercel/speed-insights').then(({ injectSpeedInsights }) => {
-      injectSpeedInsights();
-    });
-  }
-</script>

@@ -1,7 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconRss from "@/assets/icons/IconRss.svg";
+import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import Card from "@/components/Card.astro";
 import Footer from "@/components/Footer.astro";
 import Header from "@/components/Header.astro";
@@ -21,24 +23,25 @@ const featuredPosts = posts2025AndLater.filter(({ data }) => data.featured);
 const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
 ---
 
-<Layout description="Peter Steinberger: AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.">
+<Layout description={SITE.desc}>
   <StructuredData type="WebSite" data={{}} />
   <StructuredData type="Person" data={{}} />
   <Header />
   <main id="main-content" data-layout="index">
+    <!-- Hero -->
     <section id="hero" class="pt-6 pb-4">
       <div class="flex flex-col sm:flex-row items-start gap-4">
         <a href="/about" class="block mx-auto sm:mx-0 group">
-          <img 
-            src="/peter-avatar.jpg" 
-            alt="Peter Steinberger" 
+          <img
+            src="/nikita-avatar.jpg"
+            alt="Nikita Gorokhov"
             class="w-40 h-40 rounded-full object-cover flex-shrink-0 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
           />
         </a>
         <div class="flex-1 text-center sm:text-left">
           <div class="flex items-center gap-2 justify-center sm:justify-start">
             <h1 class="my-2 inline-block text-2xl font-bold sm:my-4 sm:text-3xl">
-              Hi, I'm @steipete.
+              Hi, I'm Nikita.
             </h1>
             <a
               target="_blank"
@@ -56,11 +59,13 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
             </a>
           </div>
           <p>
-            AI-powered tools from Swift roots to web frontiers.<br />
-            Every commit lands on GitHub for you to fork & remix.
+            Developer, meditator, standup comic.<br />
+            Building with AI from Koh Phangan.
+          </p>
+          <p class="mt-2 text-sm opacity-70">
+            30 y.o. · ADHD brain · 6 Vipassanas · 48+ days of silence · 4.5 years nomad across 6 countries
           </p>
           {
-            // only display if at least one social link is enabled
             SOCIALS.filter((social) => social.active).length > 0 && (
               <div class="mt-4 flex flex-row items-center justify-center sm:justify-start">
                 <Socials />
@@ -73,10 +78,89 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
 
     <Hr />
 
+    <!-- Telegram CTA — Russian, prominent -->
+    <section id="telegram-cta" class="pt-8 pb-6">
+      <a
+        href="https://t.me/cometablog"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block rounded-xl border border-border bg-muted/50 p-6 transition-all duration-200 hover:border-accent/50 hover:shadow-lg group"
+      >
+        <div class="flex items-start gap-4">
+          <div class="flex-shrink-0 mt-1">
+            <IconTelegram
+              width={36}
+              height={36}
+              class="stroke-accent stroke-2 transition-transform duration-200 group-hover:scale-110"
+            />
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-baseline gap-2 flex-wrap">
+              <span class="text-lg font-bold">Телеграм-канал</span>
+              <span class="text-accent font-semibold">@cometablog</span>
+            </div>
+            <p class="mt-1 opacity-80 text-sm">
+              Пишу по-русски о технологиях, мозге и медитации.
+              ADHD, 6 випассан, стендап на Пхангане, AI-автоматизация — и почему ничего из этого не работает так, как обещали.
+            </p>
+            <span class="mt-3 inline-flex items-center gap-1 text-sm font-medium text-accent group-hover:underline">
+              Подписаться
+              <IconArrowRight class="inline-block w-4 h-4" />
+            </span>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <Hr />
+
+    <!-- What I Do -->
+    <section id="what-i-do" class="pt-8 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide mb-6">What I Do</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="rounded-lg border border-border p-4">
+          <h3 class="font-semibold mb-1">AI & Automation</h3>
+          <p class="text-sm opacity-80">
+            13 projects managed by Claude Code. Autonomous agent teams, custom skills, content pipelines.
+          </p>
+        </div>
+        <div class="rounded-lg border border-border p-4">
+          <h3 class="font-semibold mb-1">Open Source</h3>
+          <p class="text-sm opacity-80">
+            Building in public. Tools for content creation, AI workflows, and developer productivity.
+          </p>
+        </div>
+        <div class="rounded-lg border border-border p-4">
+          <h3 class="font-semibold mb-1">Meditation & Mind</h3>
+          <p class="text-sm opacity-80">
+            6 Vipassanas, 5 years of therapy, daily practice. Skeptical insider view on mindfulness.
+          </p>
+        </div>
+        <div class="rounded-lg border border-border p-4">
+          <h3 class="font-semibold mb-1">Standup Comedy</h3>
+          <p class="text-sm opacity-80">
+            Organizing 10+ events on Koh Phangan. Code jokes meet existential observations.
+          </p>
+        </div>
+      </div>
+      <div class="mt-4 flex items-center gap-3 justify-center sm:justify-start">
+        <LinkButton
+          href="https://github.com/nikitacometa"
+          class="flex items-center gap-1.5 text-sm opacity-70 hover:opacity-100"
+          title="GitHub Profile"
+        >
+          <IconGitHub class="inline-block w-4 h-4 stroke-current" />
+          <span>github.com/nikitacometa</span>
+        </LinkButton>
+      </div>
+    </section>
+
+    <Hr />
+
     {
       featuredPosts.length > 0 && (
         <>
-          <section id="featured" class="pt-12 pb-6">
+          <section id="featured" class="pt-8 pb-6">
             <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
             <ul>
               {featuredPosts.map((data) => (
@@ -91,7 +175,8 @@ const recentPosts = posts2025AndLater.filter(({ data }) => !data.featured);
 
     {
       recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
+        <section id="recent-posts" class="pt-8 pb-6">
+          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
