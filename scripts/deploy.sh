@@ -5,7 +5,7 @@
 set -euo pipefail
 
 REMOTE_HOST="hostinger"
-REMOTE_PATH="/var/www/nikitacometa.dev"
+REMOTE_PATH="~/nikitacometa.dev"
 
 echo "Building..."
 npm run build
